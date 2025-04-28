@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef LOCATION_H
 #define LOCATION_H
 
