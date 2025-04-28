@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef BRACKET_H
 #define BRACKET_H
 
