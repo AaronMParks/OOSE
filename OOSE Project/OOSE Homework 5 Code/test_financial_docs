@@ -24,4 +24,5 @@ TEST_CASE("Mock API call for accounts", "[API]") {
     };
     REQUIRE(fakeAccounts.size() == 1);
     REQUIRE(fakeAccounts[0].accountNumber == "12345");
+
 }
