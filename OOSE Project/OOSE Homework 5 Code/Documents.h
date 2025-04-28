@@ -8,7 +8,7 @@ class Documents {
 
 private:
 	string DocID;
-	date DocDate;
+	string DocDate;
 	int AccNum;
 
 public:
