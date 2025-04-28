@@ -13,6 +13,7 @@ private:
 
 public:
 	void sendMail();
+	string getMessage();
 };
 
 #endif
