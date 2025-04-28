@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef USAGE REPORTS_H
 #define USAGE REPORTS_H
 
