@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef INVESTMENT_H
 #define INVESTMENT_H
 
