@@ -1,8 +1,9 @@
 #include "Documents.h"
 
-void Documents::getDoc(int DocID) {
-	// TODO - implement Documents::getDoc
-	throw "Not yet implemented";
+string Documents::getDoc(int DocID) {
+    return "SampleDocID_" + std::to_string(DocID);
+}
+
 }
 
 void Documents::getAllDoc(int DocID, int AccNum, int DocDate) {
