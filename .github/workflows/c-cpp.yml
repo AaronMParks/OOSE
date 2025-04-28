@@ -9,9 +9,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - name: Compile tests
-        run: g++ -std=c++11 -o unit_tests test_financial_docs.cpp Accounts.cpp Documents.cpp Notification.cpp "Usage Reports.cpp"
-      - name: Run tests
-        run: ./unit_tests
+    - uses: actions/checkout@v4
+
+    - name: Compile C++ tests
+      working-directory: './OOSE Project/OOSE Homework 5 Code'
+      run: g++ -std=c++11 -o unit_tests *.cpp
+
+    - name: Run unit tests
+      working-directory: './OOSE Project/OOSE Homework 5 Code'
+      run: ./unit_tests
