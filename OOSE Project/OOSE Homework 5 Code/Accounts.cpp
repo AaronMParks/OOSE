@@ -1,7 +1,10 @@
 #include "Accounts.h"
 
+#include "Accounts.h"
+
 bool Accounts::CheckCustAcc(int AccNum, int SSN) {
-    return (AccNum > 0 && SSN > 0);
+    // Dummy implementation for testing
+    return true;
 }
 
 void Accounts::getAllAcc(int AccNum, int DeliveryFreq, int CustName) {
