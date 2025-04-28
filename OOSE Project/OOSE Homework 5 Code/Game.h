@@ -8,7 +8,8 @@ class Game {
 
 private:
 	int gameID;
-	datetime date;
+	string date;
+	string timeStamp;
 	int locationID;
 	int teamAID;
 	int teamBID;
