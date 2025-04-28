@@ -1,9 +1,7 @@
 #include "Accounts.h"
 
-void Accounts::CheckCustAcc(int AccNum, int SSN) {
+bool Accounts::CheckCustAcc(int AccNum, int SSN) {
     return (AccNum > 0 && SSN > 0);
-}
-
 }
 
 void Accounts::getAllAcc(int AccNum, int DeliveryFreq, int CustName) {
