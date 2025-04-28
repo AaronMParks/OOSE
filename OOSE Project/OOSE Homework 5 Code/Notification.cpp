@@ -4,3 +4,6 @@ void Notification::sendMail() {
 	// TODO - implement Notification::sendMail
 	throw "Not yet implemented";
 }
+string Notification::getMessage() {  // <--- Add this function
+    return message;
+}
