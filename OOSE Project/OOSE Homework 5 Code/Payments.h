@@ -11,7 +11,9 @@ private:
 	int userID;
 	float amount;
 	string status;
-	datetime timeStamp;
+	string date;
+	string timeStamp;
+
 
 public:
 	void processPayment();
