@@ -4,6 +4,7 @@ void Notification::sendMail() {
 	// TODO - implement Notification::sendMail
 	throw "Not yet implemented";
 }
-string Notification::getMessage() {  // <--- Add this function
-    return message;
+
+std::string Notification::getMessage() {
+    return "message";  // Assume 'message' is already a member
 }
