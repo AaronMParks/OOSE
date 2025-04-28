@@ -12,7 +12,7 @@ private:
 	string CustName;
 
 public:
-	void CheckCustAcc(int AccNum, int SSN);
+	bool CheckCustAcc(int AccNum, int SSN);
 
 	void getAllAcc(int AccNum, int DeliveryFreq, int CustName);
 };
