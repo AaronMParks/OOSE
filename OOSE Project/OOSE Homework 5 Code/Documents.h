@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef DOCUMENTS_H
 #define DOCUMENTS_H
 
