@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef PAYMENTS_H
 #define PAYMENTS_H
 
