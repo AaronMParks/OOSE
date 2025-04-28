@@ -1,8 +1,9 @@
 #include "Accounts.h"
 
 void Accounts::CheckCustAcc(int AccNum, int SSN) {
-	// TODO - implement Accounts::CheckCustAcc
-	throw "Not yet implemented";
+    return (AccNum > 0 && SSN > 0);
+}
+
 }
 
 void Accounts::getAllAcc(int AccNum, int DeliveryFreq, int CustName) {
