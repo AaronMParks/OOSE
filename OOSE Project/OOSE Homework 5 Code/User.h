@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef USER_H
 #define USER_H
 
