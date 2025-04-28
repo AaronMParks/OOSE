@@ -1,3 +1,5 @@
+
+
 #include <string>
 using namespace std;
 
@@ -12,7 +14,8 @@ private:
 	int AccNum;
 
 public:
-	void getDoc(int DocID);
+	string getDoc(int DocID);
+
 
 	void getAllDoc(int DocID, int AccNum, int DocDate);
 };
