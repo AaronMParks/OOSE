@@ -1,8 +1,9 @@
 #include <string>
 using namespace std;
 
-#ifndef USAGE REPORTS_H
-#define USAGE REPORTS_H
+#ifndef USAGE_REPORTS_H
+#define USAGE_REPORTS_H
+
 
 class Usage_Reports {
 
