@@ -3,7 +3,7 @@
 #include "Notification.h"
 #include <iostream>
 #include <cassert>
-
+#include <vector>
 using namespace std;
 
 void testCheckCustAcc() {
