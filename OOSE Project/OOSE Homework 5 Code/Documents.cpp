@@ -1,8 +1,11 @@
 #include "Documents.h"
 
-string Documents::getDoc(int DocID) {
-    return "SampleDocID_" + std::to_string(DocID);
+
+std::string Documents::getDoc(int DocID) {
+    // Dummy implementation for testing
+    return "SampleDoc";
 }
+
 
 void Documents::getAllDoc(int DocID, int AccNum, int DocDate) {
 	// TODO - implement Documents::getAllDoc
