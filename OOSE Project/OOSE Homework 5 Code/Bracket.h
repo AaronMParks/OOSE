@@ -1,3 +1,6 @@
+#include <vector>
+
+
 #include <string>
 using namespace std;
 
@@ -8,7 +11,7 @@ class Bracket {
 
 private:
 	int bracketID;
-	List<int> gameIDs;
+	vector<int> gameIDs;
 
 public:
 	void generateMatchups();
