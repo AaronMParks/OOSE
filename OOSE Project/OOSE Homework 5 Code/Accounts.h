@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef ACCOUNTS_H
 #define ACCOUNTS_H
 
