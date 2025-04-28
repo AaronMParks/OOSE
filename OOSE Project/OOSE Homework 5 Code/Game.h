@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef GAME_H
 #define GAME_H
 
@@ -5,7 +8,8 @@ class Game {
 
 private:
 	int gameID;
-	datetime date;
+	string date;
+	string timeStamp;
 	int locationID;
 	int teamAID;
 	int teamBID;

@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef TEAM_H
 #define TEAM_H
 

@@ -1,3 +1,8 @@
+
+
+#include <string>
+using namespace std;
+
 #ifndef DOCUMENTS_H
 #define DOCUMENTS_H
 
@@ -5,11 +10,12 @@ class Documents {
 
 private:
 	string DocID;
-	date DocDate;
+	string DocDate;
 	int AccNum;
 
 public:
-	void getDoc(int DocID);
+	string getDoc(int DocID);
+
 
 	void getAllDoc(int DocID, int AccNum, int DocDate);
 };

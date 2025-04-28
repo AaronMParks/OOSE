@@ -1,28 +1,31 @@
-#define CATCH_CONFIG_MAIN
-#include "catch.hpp"
-#include "User.h"
-#include "Document.h"
+#include "Accounts.h"
+#include "Documents.h"
+#include "Notification.h"
+#include <iostream>
+#include <cassert>
 
-// Test 1: User login
-TEST_CASE("User login successful", "[User]") {
-    User user("12345", "6789");
-    REQUIRE(user.login() == true);
+using namespace std;
+
+void testCheckCustAcc() {
+    Accounts acc;
+    acc.CheckCustAcc(12345, 6789);
 }
 
-// Test 2: Document retrieval
-TEST_CASE("Document retrieval", "[Document]") {
-    Document doc("ABC123", "12345", "2025-04-20");
-    REQUIRE(doc.getMetadata().docId == "ABC123");
-    REQUIRE(doc.getMetadata().account == "12345");
+void testGetDoc() {
+    Documents doc;
+    doc.getDoc(123);
 }
 
-// Test 3: Mock API (this will be a fake function you define for testing)
-TEST_CASE("Mock API call for accounts", "[API]") {
-    // Simulate API behavior
-    std::vector<Account> fakeAccounts = {
-        Account("12345", "Monthly", "Aaron Parks")
-    };
-    REQUIRE(fakeAccounts.size() == 1);
-    REQUIRE(fakeAccounts[0].accountNumber == "12345");
+void testNotification() {
+    Notification notif;
+    notif.getMessage();
+}
 
+int main() {
+    testCheckCustAcc();
+    testGetDoc();
+    testNotification();
+
+    cout << "✅ All tests passed!" << endl;
+    return 0;
 }

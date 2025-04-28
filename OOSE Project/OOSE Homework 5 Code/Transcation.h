@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef TRANSCATION_H
 #define TRANSCATION_H
 

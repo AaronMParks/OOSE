@@ -1,10 +1,10 @@
-name: C++ CI
+name: C/C++ CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 jobs:
   build:
@@ -13,12 +13,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install dependencies
-      run: sudo apt-get update && sudo apt-get install -y g++
-
-    - name: Build
+    - name: Compile C++ tests
+      working-directory: './OOSE Project/OOSE Homework 5 Code'
       run: g++ -std=c++11 -o unit_tests *.cpp
 
-    - name: Run tests
+    - name: Run unit tests
+      working-directory: './OOSE Project/OOSE Homework 5 Code'
       run: ./unit_tests
-

@@ -1,3 +1,9 @@
+#include <vector>
+
+
+#include <string>
+using namespace std;
+
 #ifndef BRACKET_H
 #define BRACKET_H
 
@@ -5,7 +11,7 @@ class Bracket {
 
 private:
 	int bracketID;
-	List<int> gameIDs;
+	vector<int> gameIDs;
 
 public:
 	void generateMatchups();

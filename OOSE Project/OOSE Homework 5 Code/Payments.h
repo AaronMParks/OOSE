@@ -1,3 +1,6 @@
+#include <string>
+using namespace std;
+
 #ifndef PAYMENTS_H
 #define PAYMENTS_H
 
@@ -8,7 +11,9 @@ private:
 	int userID;
 	float amount;
 	string status;
-	datetime timeStamp;
+	string date;
+	string timeStamp;
+
 
 public:
 	void processPayment();
